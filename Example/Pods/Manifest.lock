@@ -1,0 +1,16 @@
+PODS:
+  - logTracker (0.1.0)
+
+DEPENDENCIES:
+  - logTracker (from `../`)
+
+EXTERNAL SOURCES:
+  logTracker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  logTracker: 3328d4c9aabe956f5cef21bb829c0e61221a75e4
+
+PODFILE CHECKSUM: 9d18c5b73055560c4c47af002fefdb9bb62ec739
+
+COCOAPODS: 1.1.1

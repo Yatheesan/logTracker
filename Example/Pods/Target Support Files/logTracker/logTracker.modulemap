@@ -1,0 +1,6 @@
+framework module logTracker {
+  umbrella header "logTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "logTracker",
+  "version": "0.1.0",
+  "summary": "A short description of logTracker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Yatheesan Chandreswaran/logTracker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Yatheesan Chandreswaran": "yatheesanc@zone24x7.com"
+  },
+  "source": {
+    "git": "https://github.com/Yatheesan Chandreswaran/logTracker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "logTracker/Classes/**/*"
+}

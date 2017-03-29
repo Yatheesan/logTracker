@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'logTracker_Example' do
+  pod 'logTracker', :path => '../'
+
+  target 'logTracker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
