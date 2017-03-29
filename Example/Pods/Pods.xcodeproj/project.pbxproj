@@ -10,10 +10,14 @@
 		154B924589C0F23B33E6F80FBCA13F0A /* Pods-logTracker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB03EB740F06DF89C91B2EF1F1D4E993 /* Pods-logTracker_Example-dummy.m */; };
 		1F490EBD5EA55423706185803B5A50C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		27CF1CB55AF392F615D7B8A0732F68EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		563252171E8BC76D00552EC6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563252161E8BC76D00552EC6 /* Logger.swift */; };
+		563252191E8BC78100552EC6 /* LoggerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563252181E8BC78100552EC6 /* LoggerDelegate.swift */; };
+		5632521B1E8BC79D00552EC6 /* LoggerRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5632521A1E8BC79D00552EC6 /* LoggerRegistry.swift */; };
+		5632521D1E8BC7B100552EC6 /* NullLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5632521C1E8BC7B100552EC6 /* NullLogger.swift */; };
+		5632521F1E8BC7C600552EC6 /* LoggerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5632521E1E8BC7C600552EC6 /* LoggerConfig.swift */; };
 		73FFBF5AFD21C5C8CB42A34CC480F823 /* Pods-logTracker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFCF8384C50FFCD4C4C95345B3BB33B /* Pods-logTracker_Tests-dummy.m */; };
 		862AC786F9DC22A5D573C16F0294C08B /* Pods-logTracker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9856B374E65B2CB447AB204E0E72A4 /* Pods-logTracker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEEE6658AA2C6BF29F51E9470E305A3A /* logTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184BE5B24500412092F199E54DE98D44 /* logTracker-dummy.m */; };
-		BAD70B109503CF75947346ED8646377B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B9DE205E8BB964120BF5A15FBEC69F /* ReplaceMe.swift */; };
 		D553CA78F969635DAE051808872DC2CF /* Pods-logTracker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DCEA4B0EAC7557A88612998A4AB2F4 /* Pods-logTracker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1C2A4FBC838B12FCBF6D2B68AF4CBCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		FFD945C25BA7406AF66AD4EC0EAE629F /* logTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2447DB06AA26247C22CDDD5A8CA5AB5C /* logTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,8 +45,12 @@
 		366ED4C8B260486C83486945844C6FD3 /* Pods_logTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_logTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9856B374E65B2CB447AB204E0E72A4 /* Pods-logTracker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-logTracker_Example-umbrella.h"; sourceTree = "<group>"; };
 		4C4F809CF23619DFF7A47B8813BA8B94 /* Pods-logTracker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-logTracker_Tests.modulemap"; sourceTree = "<group>"; };
+		563252161E8BC76D00552EC6 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		563252181E8BC78100552EC6 /* LoggerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerDelegate.swift; sourceTree = "<group>"; };
+		5632521A1E8BC79D00552EC6 /* LoggerRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerRegistry.swift; sourceTree = "<group>"; };
+		5632521C1E8BC7B100552EC6 /* NullLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullLogger.swift; sourceTree = "<group>"; };
+		5632521E1E8BC7C600552EC6 /* LoggerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerConfig.swift; sourceTree = "<group>"; };
 		59F170E6AA60BC84673A3CB48DCD102E /* Pods_logTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_logTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60B9DE205E8BB964120BF5A15FBEC69F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		6F9E4677A0D24329BAF13AE5C20C256D /* logTracker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = logTracker.xcconfig; sourceTree = "<group>"; };
 		722AF198AC9563AED47F10AA2D335FB4 /* Pods-logTracker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-logTracker_Example-resources.sh"; sourceTree = "<group>"; };
 		7D4B5D4FA019C519011BB259A7DA7BD4 /* Pods-logTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-logTracker_Example.modulemap"; sourceTree = "<group>"; };
@@ -175,7 +183,11 @@
 		B37C0B3FFCFCFE68225230E6490BB0C4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				60B9DE205E8BB964120BF5A15FBEC69F /* ReplaceMe.swift */,
+				563252161E8BC76D00552EC6 /* Logger.swift */,
+				563252181E8BC78100552EC6 /* LoggerDelegate.swift */,
+				5632521A1E8BC79D00552EC6 /* LoggerRegistry.swift */,
+				5632521C1E8BC7B100552EC6 /* NullLogger.swift */,
+				5632521E1E8BC7C600552EC6 /* LoggerConfig.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -353,8 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5632521D1E8BC7B100552EC6 /* NullLogger.swift in Sources */,
 				AEEE6658AA2C6BF29F51E9470E305A3A /* logTracker-dummy.m in Sources */,
-				BAD70B109503CF75947346ED8646377B /* ReplaceMe.swift in Sources */,
+				563252171E8BC76D00552EC6 /* Logger.swift in Sources */,
+				5632521F1E8BC7C600552EC6 /* LoggerConfig.swift in Sources */,
+				5632521B1E8BC79D00552EC6 /* LoggerRegistry.swift in Sources */,
+				563252191E8BC78100552EC6 /* LoggerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct LoggerConfig {
+    var logLevel : LogLevel = .DEBUG
+}

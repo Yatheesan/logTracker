@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'logTracker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of logTracker.'
+  s.summary          = 'Fast & simple, yet powerful & flexible logging framework for iOS - Swift 3.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: logTracker is a log framework for ios Apps and Libraries. Install the library into project, track your log messages using logTracker and manage your logs in single line.
                        DESC
 
-  s.homepage         = 'https://github.com/Yatheesan Chandreswaran/logTracker'
+  s.homepage         = 'https://github.com/Yatheesan/logTracker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yatheesan Chandreswaran' => 'yatheesanc@zone24x7.com' }
