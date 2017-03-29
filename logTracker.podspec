@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'logTracker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Fast & simple, yet powerful & flexible logging framework for iOS - Swift 3.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: logTracker is a log framework for ios Apps and Libraries. Install the libr
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Yatheesan Chandreswaran' => 'yatheesanc@zone24x7.com' }
-  s.source           = { :git => 'https://github.com/Yatheesan Chandreswaran/logTracker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Yatheesan/logTracker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
