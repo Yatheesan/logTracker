@@ -11,5 +11,3 @@ before_install:
     - rvm install ruby-2.2.2
     - gem install cocoapods
 
-script:
-     - xcodebuild -workspace logTracker.xcworkspace -scheme Pods-logTracke_Tests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
