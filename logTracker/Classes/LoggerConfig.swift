@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct LoggerConfig {
+public struct LoggerConfig {
     var logLevel : LogLevel = .DEBUG
 }

@@ -7,14 +7,16 @@
 //
 
 import UIKit
-
+import logTracker
 
 class ViewController: UIViewController {
-
+    
+    private var log = Logger.getInstance()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.log.setLevel(level: .SILENT)
+        self.log.debug(message: "Debug message")
     }
 
     override func didReceiveMemoryWarning() {

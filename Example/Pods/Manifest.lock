@@ -1,5 +1,5 @@
 PODS:
-  - logTracker (0.1.0)
+  - logTracker (0.1.1)
 
 DEPENDENCIES:
   - logTracker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  logTracker: 3328d4c9aabe956f5cef21bb829c0e61221a75e4
+  logTracker: c15de8ebc76313ad1138a1249800a84b33b48a72
 
 PODFILE CHECKSUM: 9d18c5b73055560c4c47af002fefdb9bb62ec739
 
