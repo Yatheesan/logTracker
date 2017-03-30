@@ -1,13 +1,13 @@
 language: objective-c
-xcode_workspace: logTracker.xcworkspace # path to your xcodeproj folder
-xcode_scheme: Pods-logTracker_Tests
-osx_image: xcode8.2
 
 branches:
     only:
         - master
 
-before_install:
-    - rvm install ruby-2.2.2
-    - gem install cocoapods
+xcode_workspacexcode_project: logTracker.xcodeproj # path to your xcodeproj folder
+xcode_scheme: Pods-logTracker_Tests
+osx_image: xcode8.2
+
+
+
 
