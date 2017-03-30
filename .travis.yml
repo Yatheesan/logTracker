@@ -17,7 +17,7 @@ branches:\
 \
 xcode_workspace: logTracker.xcworkspace\
 xcode_scheme:	Pods-logTracker_Tests\
-osx_image: beta-xcode6.4\
+osx_image: xcode8.3\
 xcode_sdk: iphonesimulator8.3\
 \
 script:\
