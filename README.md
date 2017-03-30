@@ -1,6 +1,6 @@
 # logTracker
 
-[![CI Status](http://img.shields.io/travis/Yatheesan Chandreswaran/logTracker.svg?style=flat)](https://travis-ci.org/Yatheesan Chandreswaran/logTracker)
+[![CI Status](http://img.shields.io/travis/Yatheesan/logTracker.svg?style=flat)](https://travis-ci.org/Yatheesan/logTracker)
 [![Version](https://img.shields.io/cocoapods/v/logTracker.svg?style=flat)](http://cocoapods.org/pods/logTracker)
 [![License](https://img.shields.io/cocoapods/l/logTracker.svg?style=flat)](http://cocoapods.org/pods/logTracker)
 [![Platform](https://img.shields.io/cocoapods/p/logTracker.svg?style=flat)](http://cocoapods.org/pods/logTracker)
@@ -22,7 +22,7 @@ pod "logTracker"
 
 ## Author
 
-Yatheesan Chandreswaran, yatheesanc@zone24x7.com
+Yatheesan Chandreswaran, yatheesanc9@gmail.com
 
 ## License
 
