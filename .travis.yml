@@ -1,6 +1,6 @@
 language: objective-c
 xcode_workspace: logTracker.xcworkspace # path to your xcodeproj folder
-xcode_scheme: Pods-logTracke_Tests
+xcode_scheme: Pods-logTracker_Tests
 osx_image: xcode8.2
 
 branches:
