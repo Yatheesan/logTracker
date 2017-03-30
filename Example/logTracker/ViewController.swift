@@ -17,6 +17,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.log.setLevel(level: .SILENT)
         self.log.debug(message: "Debug message")
+        self.log.error(message: "Error message")
+        self.log.info(message: "Info message")
+        self.log.trace(message: "Trace message")
+        self.log.warning(message: "Warning message")
     }
 
     override func didReceiveMemoryWarning() {
