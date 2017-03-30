@@ -8,7 +8,6 @@ branches:
         - master
 
 before_install:
-    - pod install
     - rvm install ruby-2.2.2
     - gem install cocoapods
 
