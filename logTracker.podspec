@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'logTracker'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Fast & simple, yet powerful & flexible logging framework for iOS - Swift 3.'
 
 # This description is used to generate tags and improve search results.
