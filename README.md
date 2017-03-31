@@ -37,9 +37,9 @@ self.log.warning(message: "Warning message")
 ### Requirements 
 
 The current version of Lumberjack requires:
-- Xcode 8 or later
+- Xcode 8.1 or later
 - Swift 3.0 or later
-- iOS 5 or later
+- iOS 9 or later
 - OS X 10.7 or later
 - WatchOS 2 or later
 - TVOS 9 or later
