@@ -23,7 +23,7 @@ pod "logTracker"
 If you installed using CocoaPods or manually:
 
 ```swift
-import CocoaLumberjackSwift
+import logTracker
 ```
 ```swift
 private var log = Logger.getInstance()
