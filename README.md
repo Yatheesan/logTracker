@@ -34,9 +34,23 @@ self.log.info(message: "Info message")
 self.log.trace(message: "Trace message")
 self.log.warning(message: "Warning message")
 ```
+#### log levels 
+
+You can set the log levels using:
+-TRACE 
+-INFO 
+-DEBUG
+-WARN
+-ERROR
+-SILENT
+
+```swift
+private var log = Logger.getInstance()
+self.log.setLevel(level: .SILENT)
+```
 ### Requirements 
 
-The current version of Lumberjack requires:
+The current version of logTracker requires:
 - Xcode 8.1 or later
 - Swift 3.0 or later
 - iOS 9 or later
